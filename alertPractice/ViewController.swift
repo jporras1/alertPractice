@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .white
         button.setTitleColor(.darkGray, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.layer.cornerRadius = 25
         return button
     }
     fileprivate func setupViews(){
